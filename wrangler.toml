@@ -1,0 +1,12 @@
+name = "sonik-example-basic"
+compatibility_date = "2023-01-01"
+compatibility_flags = [ "nodejs_compat" ]
+
+main = "dist/server.js"
+
+[site]
+bucket = './site'
+
+[build]
+command = "yarn build"
+watch_dir = "./app"
