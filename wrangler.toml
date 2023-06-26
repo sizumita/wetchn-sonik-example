@@ -1,4 +1,4 @@
-name = "sonik-example-basic"
+name = "wetchn-sonik-example"
 compatibility_date = "2023-01-01"
 compatibility_flags = [ "nodejs_compat" ]
 
