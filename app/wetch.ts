@@ -1,9 +1,7 @@
-import {createWetch} from "wetchn";
+import {createWache} from "wetchn";
+import AsyncLocalStorageWacheService from "wetchn/wache";
 
-const {
-    wache,
-    etch
-} = createWetch<{}>()
+const {wache, etch} = createWache(AsyncLocalStorageWacheService.create())
 
 export {
     wache,
